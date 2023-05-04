@@ -1,1 +1,17 @@
 
+<bug>
+  <title>Ошибка при входе в систему</title>
+  <description>При попытке входа в систему появляется сообщение об ошибке "Неверный логин или пароль".</description>
+  <steps>
+    <step>Открыть страницу входа в систему</step>
+    <step>Ввести неверный логин и пароль</step>
+    <step>Нажать кнопку "Войти"</step>
+  </steps>
+  <expected_result>Система должна вывести сообщение об ошибке "Неверный логин или пароль".</expected_result>
+  <actual_result>Система выводит сообщение об ошибке "Неверный логин".</actual_result>
+  <severity>Высокая</severity>
+  <priority>Высокий</priority>
+  <assigned_to>Иванов И.И.</assigned_to>
+  <reported_by>Петров П.П.</reported_by>
+  <date>2023-05-04</date>
+</bug>
